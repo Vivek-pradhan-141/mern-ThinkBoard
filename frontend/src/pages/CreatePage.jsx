@@ -44,10 +44,10 @@ const CreatePage = () => {
       <div className="container mx-auto px-4 py-8 ">
         <div className="max-w-3xl mx-auto dark-grey">
           <div className="flex justify-between mr-2">
-            <Link to={"http://localhost:5173"} className="btn hover:text-green-400">
+            <button  className="btn hover:text-green-400" onClick={()=>{navigate("/")}} >
               <MoveLeft className="size-5 text-green-500 drop-shadow-[0_0_8px_#66cc99] " />
               Go back to Notes
-            </Link>
+            </button>
             <FilePlus className="size-9 text-yellow-400 drop-shadow-[0_0_8px_#facc15] mt-2" />
           </div>
           <div className="card bg-base-100 mt-4">

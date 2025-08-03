@@ -52,10 +52,10 @@ const NoteDetailPage = () => {
         <div className="card dark-grey p-1 max-w-4xl  mx-auto mt-3">
 
           <div className="flex justify-between mr-2 mb-4">
-            <Link to={"http://localhost:5173"} className="btn hover:text-green-400">
+            <button  className="btn hover:text-green-400" onClick={()=>{navigate("/")}} >
               <MoveLeft className="size-5 text-green-500 drop-shadow-[0_0_8px_#66cc99] " />
               Go back to Notes
-            </Link>
+            </button>
           </div>
 
           <div className="card card-body bg-base-100 ">
