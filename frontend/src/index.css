@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.group-edit:hover .edit-icon {
+  color: rgb(55, 195, 55);
+  filter: drop-shadow(0 0 10px #66cc99);
+}
+.group-edit:hover .edit-trash {
+  color: #eb3636;
+  filter: drop-shadow(0 0 10px #66cc99);
+}
+
+
+.dark-grey {
+  background-color: #1e1e1e; /* Dark grey */
+  padding: 10px;
+  border-radius: 20px;
+  color: #f0f0f0; /* Light text */
+}
+
+.round_1{
+  border-radius: 20px;
+}
